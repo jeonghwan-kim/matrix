@@ -1,0 +1,11 @@
+@import 'flipcard.css';
+
+body {
+}
+
+.main {
+  margin: 100px auto;
+
+  /* (150 * 4) + (2 * 4)*/
+  width: 608px;
+}

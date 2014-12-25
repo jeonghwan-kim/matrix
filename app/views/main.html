@@ -1,0 +1,11 @@
+<div class="main">
+  <!--<div class="row">-->
+    <div class="col-xs-3" ng-repeat="text in data track by $index">
+        <flipcard width="150px"
+                height="100px"
+                front-text="{{$index + 1}}"
+                ctrl-id="toggle{{$index}}"
+                back-text="{{text}}"></flipcard>
+    </div>
+  <!--</div>-->
+</div>
